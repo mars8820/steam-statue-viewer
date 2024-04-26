@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#profileInfo, #currentGameInfo {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
